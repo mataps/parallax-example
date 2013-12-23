@@ -1,0 +1,191 @@
+@font-face {
+	font-family: samsung;
+	src: url('SamsungImagination.ttf');
+}
+
+html { 
+	overflow-y: scroll;
+}
+
+body {
+	background: #F0F0F0;
+	overflow-x: hidden;
+	height: 4550px;
+	line-height: 1.5;
+	color: #9a9a9a;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
+	color:#fff;
+	outline: none;
+	text-decoration:none;
+}
+
+a:hover { 
+	color:#117CC2;
+}
+
+p {
+	margin:1em 0;
+}
+
+/********************************************
+ * 	Nav
+ ********************************************/ 
+nav#primary {
+	z-index: 5;
+	position: fixed;
+	right: 50px;
+	background-image: url('../img/transparent_bg.png');
+	font-family: samsung;
+	font-size: 15px;
+	height: 50px;
+	width: 420px;
+}
+nav#primary li {
+	float:left;
+	list-style: none;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+nav#primary a {
+	width: 20px;
+	height: 20px;
+}
+nav#primary a:hover, nav#primary a.active {
+}
+
+/********************************************
+ * 	Page
+ ********************************************/ 
+
+#pageWrapper {
+	position: relative;
+}
+
+/********************************************
+ * 	content
+ ********************************************/ 
+#content {
+	z-index: 4;
+	position: relative;
+	padding: 0 10px;
+	margin: 0 auto;
+	line-height: 1.7;
+}
+#content article {
+	width: 300px;
+	background-image: url('../img/transparent_bg.png');
+	
+}
+#content h1 {
+	color: #FFF;
+	margin: 0 0 25px 0;
+	font-size: 60px;
+	font-family: samsung, sans-serif;
+	font-weight: normal;
+	line-height: 65px;
+	text-shadow:0px 0px 8px #ffff6e;
+}
+#first ,
+#second,
+#third,
+#fourth {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	position: absolute;
+}
+#first {
+	top: 0px;
+}
+#second {
+	top: 1090px;
+}
+#third {
+	top: 2180px;
+}
+#fourth {
+	top: 3270px;
+}
+
+/********************************************
+ * 	Parallax
+ ********************************************/ 
+#parallax-bg1 {
+	z-index: 1;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 1200px;
+	margin-left: -600px;
+}
+#bg1-1 {
+	position: absolute;
+	top: 0px;
+	left: -80px;
+	background-image: url('../img/space_bg.png');
+	height:768px;
+	width: 1366px;
+}
+
+#parallax-bg2 {
+	z-index: 2;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 1200px;
+	margin-left: -600px;
+}
+#bg2-1 {
+	position: absolute;
+	top: 0px;
+	left: -80px;
+	background-image: url('../img/star1.png');
+	background-repeat:repeat-y;
+	width: 1366px;
+	height:3072px;
+}
+
+#parallax-bg3 {
+	z-index: 3;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 940px;
+	margin-left: -470px;
+}
+#bg3-1 {
+	position: absolute;
+	top: 0px;
+	left: -80px;
+	background-image: url('../img/star2.png');
+	background-repeat:repeat-y;
+	width: 1366px;
+	height:3072px;
+}
+
+#parallax-bg4 {
+	z-index: 4;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 940px;
+	margin-left: -470px;
+}
+#bg4-1 {
+	position: absolute;
+	top: 0px;
+	left: -210px;
+
+}
